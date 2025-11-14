@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.tmp
+*.out
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts (если когда-то добавишь билд)
+dist/
+build/
+.cache/
+
+# Render / Railway / Fly.io
+.fly/
+.vercel/
+.netlify/
+
+# TypeScript (если вдруг решишь переписать на tsc)
+*.tsbuildinfo
